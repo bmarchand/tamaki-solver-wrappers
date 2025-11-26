@@ -9,7 +9,7 @@ def start_jvm_if_needed():
 
     package_dir = os.path.dirname(__file__)
     jar_path = os.path.join(package_dir, "jar", "tamaki_solver.jar")
-    jpype.startJVM(classpath=[jar_path])
+    jpype.startJVM("--enable-native-access=ALL-UNNAMED",classpath=[jar_path])
 
 
 def tamaki_solver(edge_list):
