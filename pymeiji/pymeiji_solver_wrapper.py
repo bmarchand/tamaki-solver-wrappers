@@ -52,8 +52,6 @@ def meiji_solver(edge_list):
 
         
     td = MainDecomposer.decompose(g)
-    print(td.bags)
-    print(td.neighbor)
 
     bags = {}
     bag_adj = {}
@@ -68,5 +66,5 @@ def meiji_solver(edge_list):
     return td.width, bags, bag_adj
 
 if __name__=="__main__":
-    td = tamaki_solver([(0,1),(1,2),(2,3)])
+    td = meiji_solver([(0,1),(1,2),(2,3)])
     print(td)
