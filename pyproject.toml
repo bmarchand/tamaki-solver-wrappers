@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tamaki-solver-python"
+name = "pymeiji"
 version = "0.0.1"
 authors = [
     {name="Bertrand Marchand", email="bertrand.marchand7@gmail.com"},
@@ -12,13 +12,14 @@ description = "A simple jpype-based python wrapper around Hisao Tamaki's treewid
 dependencies = [
     "jpype1"
 ]
+readme = "README.md"
 
 [project.urls]
 Homepage = "https://github.com/bmarchand/tamaki-solver-wrappers"  
 
 [tool.setuptools]
 include-package-data = true
-packages = ["tamaki_solver_wrapper"]
+packages = ["pymeiji"]
 
 [tool.setuptools.package-data]
-tamaki_solver_wrapper = ["jar/*.jar"]
+pymeiji = ["jar/*.jar"]

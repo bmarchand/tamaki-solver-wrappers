@@ -1,4 +1,0 @@
-Metadata-Version: 2.4
-Name: tamaki-solver-wrapper
-Version: 0.1.0
-Requires-Dist: jpype1
