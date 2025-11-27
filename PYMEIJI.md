@@ -3,7 +3,7 @@ This is a simple python wrapper around https://github.com/TCS-Meiji/PACE2017-Tra
 based on [jpype](https://jpype.readthedocs.io/en/latest/).
 The original implementation of the solver is in java.
 The algorithm is described in 
-https://arxiv.org/abs/1704.05286
+https://arxiv.org/abs/1704.05286.
 
 
 ## Installation instructions
