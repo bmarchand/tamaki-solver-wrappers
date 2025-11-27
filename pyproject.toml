@@ -12,7 +12,7 @@ description = "A simple jpype-based python wrapper around Hisao Tamaki's treewid
 dependencies = [
     "jpype1"
 ]
-readme = "README.md"
+readme = "PYMEIJI.md"
 
 [project.urls]
 Homepage = "https://github.com/bmarchand/tamaki-solver-wrappers"  
