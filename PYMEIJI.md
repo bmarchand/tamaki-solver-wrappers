@@ -3,7 +3,7 @@
 pip install pymeiji
 ```
 ## Usage
-```
+```python
 def meiji_solver(edge_list):
     """
         Exact computation of the treewidth of a graph.
