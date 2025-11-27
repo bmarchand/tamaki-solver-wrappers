@@ -3,11 +3,18 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tamaki-solver-wrapper"
-version = "0.1.0"
+name = "tamaki-solver-python"
+version = "0.0.1"
+authors = [
+    {name="Bertrand Marchand", email="bertrand.marchand7@gmail.com"},
+]
+description = "A simple jpype-based python wrapper around Hisao Tamaki's treewidth solver for PACE 2017"
 dependencies = [
     "jpype1"
 ]
+
+[project.urls]
+Homepage = "https://github.com/bmarchand/tamaki-solver-wrappers"  
 
 [tool.setuptools]
 include-package-data = true
