@@ -1,3 +1,3 @@
-from .tamaki_solver_python_wrapper import tamaki_solver
+from .pymeiji_solver_wrapper import meiji_solver
 
-__all__ = ["tamaki_solver"]
+__all__ = ["meiji_solver"]
