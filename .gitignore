@@ -4,3 +4,4 @@ dist/
 build/
 **/__pycache/**
 *.pyc
+pymeiji/jar/tamaki_solver.jar
