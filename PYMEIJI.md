@@ -33,6 +33,8 @@ def meiji_solver(edge_list):
     """
 ```
 
-```
-    tw, bag, bag_adj = meiji_solver([(0,1),(1,2),(2,3)])
+```pycon
+>>> from pymeiji import meiji_solver
+>>> meiji_solver([(0,1),(1,2),(2,3),(0,3)])
+(2, {1: [0, 1, 3], 2: [1, 2, 3]}, {1: [2], 2: [1]})
 ```
